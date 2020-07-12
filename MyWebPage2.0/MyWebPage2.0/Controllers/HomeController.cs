@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using MyWebPage2._0.Models;
+using MvcMovie.Models;
 
-namespace MyWebPage2._0.Controllers
+namespace MvcMovie.Controllers
 {
     public class HomeController : Controller
     {
@@ -42,7 +42,8 @@ namespace MyWebPage2._0.Controllers
             {
                 return Content(serial.ToLower());
             }
-            return Content(serial);
+            //return Json(new { name = "serial", value = serial });
+            return RedirectToAction("Index");
         }
 
 

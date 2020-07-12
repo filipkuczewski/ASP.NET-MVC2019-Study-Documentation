@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 
-namespace MyWebPage2._0.Controllers
+namespace MvcMovie.Controllers
 {
     public class HelloWorldController : Controller
     {

@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace MyWebPage2._0.Data
+namespace MvcMovie.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
